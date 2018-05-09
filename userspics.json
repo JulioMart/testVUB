@@ -1,0 +1,19 @@
+[{
+    "name" : "John",
+    "email": "test@test.com",
+    "pic_location": "C:/Users/julio/Pictures/bar/MenuA4---face.jpg",
+    "caption": "xgzdhuihduida",
+    "uploaded_at": "07-05-2018",
+    "total_votes": 100
+},
+{
+    "name" : "Mary",
+    "email": "testMary@test.com",
+    "pic_location": "C:/Users/julio/Pictures/bar/MenuA4.jpg",
+    "caption": "caption test",
+    "uploaded_at": "08-05-2018",
+    "total_votes": 58
+}
+
+
+]

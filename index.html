@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <title>VoteMyPic</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 mx-auto text-center">
+                <h4>Submit Your Picture</h4>
+                <form action="" id="form">
+                    <div class="form-group">
+                        <label for="name">Your name: *</label>
+                        <input type="text" id="name" class="form-control">
+                        <div class="invalid-feedback">
+                                Must enter your name
+                            </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your e-mail: *</label>
+                        <input type="email" id="email" class="form-control">
+                        <div class="invalid-feedback">
+                                Invalid email
+                            </div>
+                    </div>  
+                    <div class="form-group">
+                        <label for="picture">Upload Your picture *</label>
+                        <input type="file" id="picture" class="form-control">
+                        <div class="invalid-feedback">
+                                Upload Your Picture please
+                            </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="caption">Caption</label>
+                        <input type="text" id="caption" class="form-control">
+                    </div> 
+                    <input type="submit" value="Submit" class="btn btn-primary btn-block">                    
+                </form>
+            </div>
+            <div class="col-md-7 mx-auto text-center">
+                <div id="submited_pics"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <script src="users.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
